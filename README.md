@@ -66,7 +66,7 @@ Then after it's done, the EFI partition should appear on the desktop and you sho
 Chapter 4: Getting everything going
 
 So once Clover's in, here's where the fun part begins. 
-Go to the Clover Files folder in this github repo and chuck into your EFI partition and let it replace everything. 
+Go to the Clover Files folder in this github repo, download CLOVER.zip, extract to your downloads, then head into your EFI partition, then into your EFI folder then drag and drop. Let it replace everything in the CLOVER folder you already have. 
 If you don't have an i7 4700MQ like I do, use ssdtPRgen.sh off the net to generate SSDTs for your CPU so you get native power management, no need for NullCPUPowerManagement.kext, make sure you delete SSDT-1.aml through SSDT-8.aml before you generate replacement ones with ssdtPRgen.sh
 
 If you have a BCM94352HMB card like I do, keep SSDT-9.aml since it's responsible for having the card partially working.
