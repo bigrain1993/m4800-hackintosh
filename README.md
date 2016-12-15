@@ -1,5 +1,7 @@
-Dell Precision M4800 Hackintosh Install
-These are files needed to get a Dell Precision M4800 going on OS X
+Dell Precision M4800 Hackintosh Installation Guide
+
+
+These are files needed to get a Dell Precision M4800 going on macOS
 All files will be divided into parts of what point you're at in your setup
 Side note: This may also work on a M6800, 
 seeing as it's the same internals, just different size since it's a 17.3" laptop.
@@ -65,9 +67,9 @@ Chapter 4: Getting everything going
 
 So once Clover's in, here's where the fun part begins. 
 Go to the Clover Files folder in this github repo and chuck into your EFI partition and let it replace everything. 
-If you don't have an i7 4700MQ like I do, use ssdtPRgen.sh off the net to generate SSDTs for your CPU so you get native power management, no need for NullCPUPowerManagement.kext
-If you have a BCM94352HMB card like I do, keep SSDT-9.aml, 
-it's responsible for having the card partially working.
+If you don't have an i7 4700MQ like I do, use ssdtPRgen.sh off the net to generate SSDTs for your CPU so you get native power management, no need for NullCPUPowerManagement.kext, make sure you delete SSDT-1.aml through SSDT-8.aml before you generate replacement ones with ssdtPRgen.sh
+
+If you have a BCM94352HMB card like I do, keep SSDT-9.aml since it's responsible for having the card partially working.
 
 Now, open Kext Wizard and drag all the kexts you got from the Kexts Folder off this repo. 
 Install them, then head to Maintenance to rebuild your caches and reboot, 
