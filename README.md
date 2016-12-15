@@ -24,6 +24,7 @@ I haven't had any luck using a Sierra USB Installer yet,
 so if anyone has got it going, post an issue here, 
 I'll credit you appropriately and make sure you get some love for contributing to the improvement of this guide.
 
+
 Chapter 1: The Pre-setup
 
 If you have the El Pwn DMG off TechReviews, 
@@ -50,6 +51,7 @@ Those using separate drives for each OS don't need to do this.
 Once the first phase is done and you are asked to restart the laptop, 
 reneter the boot flags according to your GPU and finish the post setup.
 
+
 Chapter 3: Reaching the desktop
 
 After the installation is finished, 
@@ -62,6 +64,7 @@ This will allow you to see the EFI partition once you've got clover installed.
 After you got those installed, 
 install Clover and make sure you select ESP, not UEFI or Legacy. 
 Then after it's done, the EFI partition should appear on the desktop and you should be ready for the next portion of this guide.
+
 
 Chapter 4: Getting everything going
 
@@ -93,6 +96,7 @@ Thanks to the folks at insanelymac for providing the Verde.kext, we can now upgr
 
 The NVIDIA guys, make sure you have nv_disable=1 before you upgrade, 
 that way you can install your web drivers after upgrading and get QE/CI after rebooting.
+
 
 Chapter 6: The Conclusion
 
