@@ -105,7 +105,8 @@ via Fn+F1 of course. NVIDIA guys, post an issue here if you got lid sleep workin
 Before trying any games on macOS Sierra, make sure you change your display via System Preferences > Displays, Optimize For. That's how you switch between Intel Graphics and "AMD 7700 Series" video cards. 
 I wrote the modified Dashimaki Framebuffer one night but I'll be looking into getting a full framebuffer working with the DisplayPort, VGA and as well as the E-Port Replicator ports. 
 If you guys also have the FIPS Fingerprint or Regular Swipe, 
-it won't work in OS X AFAIK. Using something like MacID will work just fine though. 
+it won't work in macOS AFAIK. 
+Using something like MacID via Bluetooth will work just fine though. 
 Sleep also works if you switched to the AMD GPU, 
 I've confirmed that and for some funny reason it works without a problem. 
 Some USB Ports also don't work for some reason so if someone could get a fix on that, 
