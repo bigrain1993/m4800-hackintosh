@@ -117,3 +117,6 @@ Some USB Ports also don't work for some reason so if someone could get a fix on 
 report it as an issue and I'll update the repo.
 
 Enjoy your M4800/M6800 hackintosh!
+
+Special Thanks to: okiookio for some DSDT patches, OSX Latitude's howoarang for the main files, tonymacx86 for the ATI framebuffer and device ids, insanelymac for the Verde.kext & Framebuffer modding guide, autumnrain and slice2009 for VoodooHDA, RehabMan for almost all the kexts necessary for this hackintosh guide, Clover Bootloader team for giving us the holy grail of running macOS on PCs.
+
