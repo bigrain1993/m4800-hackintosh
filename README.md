@@ -71,6 +71,10 @@ If you don't have an i7 4700MQ like I do, use ssdtPRgen.sh off the net to genera
 
 If you have a BCM94352HMB card like I do, keep SSDT-9.aml since it's responsible for having the card partially working.
 
+Make sure to also install VoodooHDA off their sourceforge download, I have the VoodooHDA kext here since I modified it to be at 100% volume. 
+
+I highly recommend you don't patch AppleHDA since it's a pain in the ass, VoodooHDA will do just as good.
+
 Now, open Kext Wizard and drag all the kexts you got from the Kexts Folder off this repo. 
 Install them, then head to Maintenance to rebuild your caches and reboot, 
 you should successfully boot into OS X perfectly, 
