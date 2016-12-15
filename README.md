@@ -1,4 +1,4 @@
-Dell Precision M4800 Hackintosh Installation Guide
+#Dell Precision M4800 Hackintosh Installation Guide
 
 
 These are files needed to get a Dell Precision M4800 going on macOS
@@ -25,7 +25,7 @@ so if anyone has got it going, post an issue here,
 I'll credit you appropriately and make sure you get some love for contributing to the improvement of this guide.
 
 
-Chapter 1: The Pre-setup
+#Chapter 1: The Pre-setup
 
 If you have the El Pwn DMG off TechReviews, 
 then installing El Capitan should be a breeze
@@ -52,7 +52,7 @@ Once the first phase is done and you are asked to restart the laptop,
 reneter the boot flags according to your GPU and finish the post setup.
 
 
-Chapter 3: Reaching the desktop
+#Chapter 3: Reaching the desktop
 
 After the installation is finished, 
 make sure you have a handy USB flash drive or external drive on you to get everything going. 
@@ -66,7 +66,7 @@ install Clover and make sure you select ESP, not UEFI or Legacy.
 Then after it's done, the EFI partition should appear on the desktop and you should be ready for the next portion of this guide.
 
 
-Chapter 4: Getting everything going
+#Chapter 4: Getting everything going
 
 So once Clover's in, here's where the fun part begins. 
 Go to the Clover Files folder in this github repo, download CLOVER.zip, extract to your downloads, then head into your EFI partition, then into your EFI folder then drag and drop. Let it replace everything in the CLOVER folder you already have. 
@@ -98,7 +98,7 @@ The NVIDIA guys, make sure you have nv_disable=1 before you upgrade,
 that way you can install your web drivers after upgrading and get QE/CI after rebooting.
 
 
-Chapter 6: The Conclusion
+#Chapter 6: The Conclusion
 
 So after you've got everything installed, upgraded and you're hunky dory with your hack, 
 you can do whatever you want since everything runs like a charm. 
@@ -120,5 +120,6 @@ Final Note: The modified Dashimaki Framebuffer I made doesn't really work that w
 
 Enjoy your M4800/M6800 hackintosh!
 
-Special Thanks to: okiookio for some DSDT patches, OSX Latitude's howoarang for the main files, tonymacx86 for the ATI framebuffer and device ids, insanelymac for the Verde.kext & Framebuffer modding guide, autumnrain and slice2009 for VoodooHDA, RehabMan for almost all the kexts necessary for this hackintosh guide, Clover Bootloader team for giving us the holy grail of running macOS on PCs.
+#Special Thanks to: 
+okiookio for some DSDT patches, OSX Latitude's howoarang for the main files, tonymacx86 for the ATI framebuffer and device ids, insanelymac for the Verde.kext & Framebuffer modding guide, autumnrain and slice2009 for VoodooHDA, RehabMan for almost all the kexts necessary for this hackintosh guide, Clover Bootloader team for giving us the holy grail of running macOS on PCs.
 
