@@ -118,7 +118,7 @@ report it as an issue and I'll update the repo.
 
 Final Note: The modified Dashimaki Framebuffer I made doesn't really work that well and only lets you connect HDMI as far as I know from my experiences.
 
-Enjoy your M4800/M6800 hackintosh!
+##Enjoy your M4800/M6800 hackintosh!
 
 ------------------------------------
 #Special Thanks to: 
