@@ -39,7 +39,7 @@ The USB ports can be picky on which want and don't want to work
 
 Boot Flags to use: -v maxmem=8192 GraphicsEnabler=Yes USBBusFix=Yes
 
-NVIDIA Users: -v maxmem8192 GraphicsEnabler=No USBBusFix=Yes
+NVIDIA Users: -v maxmem=8192 GraphicsEnabler=No USBBusFix=Yes
 
 
 Chapter 2: The Installation
