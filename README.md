@@ -13,7 +13,7 @@ A small bump will appear on the bottom when you've put the back cover on, but th
 Make sure you disable the Hackintosh card in Windows to avoid network conflicts.
 
 ##Warning
-Users with the AMD FirePro M1500 such as myself, 
+Users with the AMD FirePro M5100 such as myself, 
 will have a bit of trouble getting everything going
 Lucky for the NVIDIA Users, 
 they have it the easy way since they only need the web drivers.
