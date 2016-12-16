@@ -43,7 +43,7 @@ The USB ports can be picky on which want and don't want to work
 **NVIDIA Users: -v maxmem=8192 GraphicsEnabler=No USBBusFix=Yes
 
 
-Chapter 2: The Installation
+#Chapter 2: The Installation
 
 Once you've successfully booted into the Installer, install as usual. 
 If you're dual booting macOS and Windows,
