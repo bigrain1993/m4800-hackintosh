@@ -8,8 +8,7 @@ seeing as it's the same internals, just different size since it's a 17.3" laptop
 
 Also! The Dell Precision M4800 and M6800 both can accept two WiFi cards simultaneously, 
 I've confirmed this myself by installing a second wifi card alongside my Intel AC7260. 
-Just make sure your antenna connectors are long enough to reach your hackintosh wifi card. T
-hey may stretch a little but try not to break one like I did. 
+Just make sure your antenna connectors are long enough to reach your hackintosh wifi card. They may stretch a little but try not to break one like I did. 
 A small bump will appear on the bottom when you've put the back cover on, but that shouldn't be a big deal. 
 Make sure you disable the Hackintosh card in Windows to avoid network conflicts.
 
