@@ -13,7 +13,8 @@ hey may stretch a little but try not to break one like I did.
 A small bump will appear on the bottom when you've put the back cover on, but that shouldn't be a big deal. 
 Make sure you disable the Hackintosh card in Windows to avoid network conflicts.
 
-Warning: Users with the AMD FirePro M1500 such as myself, 
+##Warning
+Users with the AMD FirePro M1500 such as myself, 
 will have a bit of trouble getting everything going
 Lucky for the NVIDIA Users, 
 they have it the easy way since they only need the web drivers.
@@ -37,9 +38,9 @@ make sure you got a working KB/M setup on your M4800
 The USB ports can be picky on which want and don't want to work
 
 
-Boot Flags to use: -v maxmem=8192 GraphicsEnabler=Yes USBBusFix=Yes
+**Boot Flags to use: -v maxmem=8192 GraphicsEnabler=Yes USBBusFix=Yes
 
-NVIDIA Users: -v maxmem=8192 GraphicsEnabler=No USBBusFix=Yes
+**NVIDIA Users: -v maxmem=8192 GraphicsEnabler=No USBBusFix=Yes
 
 
 Chapter 2: The Installation
@@ -87,7 +88,7 @@ Make sure you find the Web Drivers for your necessary macOS version prior to reb
 If you want iMessage and FaceTime going, make sure you do it after you reboot. 
 Here's the link for the guide: http://www.fitzweekly.com/2016/02/hackintosh-imessage-tutorial.html
 
-Chapter 5: Upgrading to Sierra
+#Chapter 5: Upgrading to Sierra
 
 If you think you want to go the extra mile and upgrade to 10.12.x, you won't have much trouble. 
 Those running the AMD FirePro M5100, will have absolutely no problem upgrading since the Verde.kext you installed will let you go through without GPU issues that I experienced without that kext installed. 
@@ -116,7 +117,8 @@ I've confirmed that and for some funny reason it works without a problem.
 Some USB Ports also don't work for some reason so if someone could get a fix on that, 
 report it as an issue and I'll update the repo.
 
-Final Note: The modified Dashimaki Framebuffer I made doesn't really work that well and only lets you connect HDMI as far as I know from my experiences.
+#Final Note
+The modified Dashimaki Framebuffer I made doesn't really work that well and only lets you connect HDMI as far as I know from my experiences.
 
 **Enjoy your M4800/M6800 hackintosh!**
 
